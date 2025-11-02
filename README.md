@@ -1,0 +1,1 @@
+Welcome to my digital portfolio—a curated showcase of my journey as a passionate developer and AI/ML enthusiast. Currently pursuing an MCA (Hons.) in Artificial Intelligence & Machine Learning at Lovely Professional University in collaboration with IBM, I blend academic rigor with hands-on innovation.
