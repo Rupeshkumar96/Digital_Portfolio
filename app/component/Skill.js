@@ -3,7 +3,7 @@ import React from 'react'
 const Skill = () => {
   return (
     <div>
-        <section id="skills" className="bg-[#0a0f1a] text-white py-10">
+        <section id="Skill" className="bg-[#0a0f1a] text-white py-10">
         <h2 className="text-3xl font-bold text-center text-blue-400 mb-10 mt-10">
             My Skills & Technologies
         </h2>
