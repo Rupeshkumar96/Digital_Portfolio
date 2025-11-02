@@ -38,7 +38,7 @@ export default function HeroSection() {
               "MERN Developer",
               "Problem Solver",
             ]}
-            typeSpeed={70}
+            // typeSpeed={70}
             backSpeed={50}
             loop
           />
