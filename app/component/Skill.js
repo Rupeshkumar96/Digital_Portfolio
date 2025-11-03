@@ -17,8 +17,8 @@ const Skill = () => {
             </h3>
             <div className="flex flex-col gap-3">
                 {[
-                { name: "Python", level: "Advanced", icon: "/icons/python.png" },
-                { name: "Java", level: "Intermediate", icon: "/icons/java.png" },
+                { name: "Python", level: "Advanced", icon: "/icons/Python.png" },
+                { name: "Java", level: "Intermediate", icon: "/icons/Java.png" },
                 { name: "C", level: "Intermediate", icon: "/icons/C.png" },
                 { name: "JavaScript", level: "Advanced", icon: "/icons/js.png" },
                 ].map((skill) => (
@@ -42,7 +42,7 @@ const Skill = () => {
                 {[
                 { name: "HTML5", level: "Advanced", icon: "/icons/html5.png" },
                 { name: "CSS3", level: "Advanced", icon: "/icons/css3.png" },
-                { name: "React", level: "Intermediate", icon: "/icons/react.png" },
+                { name: "React", level: "Intermediate", icon: "/icons/React.png" },
                 { name: "Next.js", level: "Intermediate", icon: "/icons/next.png" },
                 ].map((skill) => (
                 <div key={skill.name} className="flex items-center gap-3 bg-[#0B0C10] p-3 rounded-xl">
