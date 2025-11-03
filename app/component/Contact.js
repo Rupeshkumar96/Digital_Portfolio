@@ -50,9 +50,9 @@ const Contact = () => {
             data-aos="fade-right"
           >
             <div>
-              <h2 className="text-white text-center text-2xl font-bold flex items-center justify-center mb-5">
+              {/* <h2 className="text-white text-center text-2xl font-bold flex items-center justify-center mb-5">
                 Talk to me
-              </h2>
+              </h2> */}
               <div className=":w-1/2 flex flex-wrap md:flex-col items-center justify-center">
                 {/* Email */}
                 <div
@@ -62,10 +62,10 @@ const Contact = () => {
                   <div className="flex flex-col items-center justify-center">
                     <FaMailBulk className="text-gray-100 h-8 w-10 md:h-8 md:w-10" />
                     <p className="text-gray-100 font-bold text-lg">Email</p>
-                    <p className=" text-gray-400 text-sm">rupeshprasad103@gmail.com</p>
+                    {/* <p className=" text-gray-400 text-sm">rupesh@gmail.com</p> */}
                   </div>
                   <div className="flex">
-                    <p className="text-sm text-blue-500">Demo </p>
+                    {/* <p className="text-sm text-blue-500">Demo </p> */}
                     <GoTriangleRight className="text-sm text-blue-500 h-5 w-5" />
                   </div>
                 </div>
@@ -79,10 +79,10 @@ const Contact = () => {
                   <div className="flex flex-col items-center justify-center">
                     <FaWhatsapp className="text-gray-100 h-8 w-10 md:h-8 md:w-10" />
                     <p className="text-gray-100 font-bold text-lg">WhatsApp</p>
-                    <p className=" text-gray-400 text-sm">+91_9693921709</p>
+                    {/* <p className=" text-gray-400 text-sm">+91_969309</p> */}
                   </div>
                   <div className="flex">
-                    <p className="text-sm text-blue-500">Demo </p>
+                    {/* <p className="text-sm text-blue-500"> Demo</p> */}
                     <GoTriangleRight className="text-sm text-blue-500 h-5 w-5" />
                   </div>
                 </div>
@@ -96,10 +96,10 @@ const Contact = () => {
                   <div className="flex flex-col items-center justify-center">
                     <FaTwitter className="text-gray-100 h-8 w-10 md:h-8 md:w-10" />
                     <p className="text-gray-100 font-bold text-lg">Twitter</p>
-                    <p className=" text-gray-400 text-sm">tweet me</p>
+                    {/* <p className=" text-gray-400 text-sm">tweet me</p> */}
                   </div>
                   <div className="flex">
-                    <p className="text-sm text-blue-500">Demo </p>
+                    {/* <p className="text-sm text-blue-500">Demo </p> */}
                     <GoTriangleRight className="text-sm text-blue-500 h-5 w-5" />
                   </div>
                 </div>
@@ -110,7 +110,7 @@ const Contact = () => {
           {/* Right - Form */}
           <div className="w-full px-9 md:w-1/2 md:-mt-16" data-aos="fade-left">
             <h2 className="text-white text-center text-2xl font-bold flex items-center justify-center">
-              Write Me your Message
+              Write your Message
             </h2>
             <div className="mt-5">
               <form

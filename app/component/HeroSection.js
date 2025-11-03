@@ -44,10 +44,10 @@ export default function HeroSection() {
           />
         </h2> */}
 
-        <p className="text-gray-300 text-base md:text-lg max-w-xl">
+        {/* <p className="text-gray-300 text-base md:text-lg max-w-xl">
           Passionate about crafting scalable, secure, and modern web
           applications with a focus on performance and user experience.
-        </p>
+        </p> */}
 
         {/* BUTTONS */}
         <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-2">
