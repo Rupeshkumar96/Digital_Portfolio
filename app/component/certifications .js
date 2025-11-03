@@ -5,7 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const certifications = [
-  { name: "AI Workshop", image: "/certificates/Ai_Workshop.jpg" },
+  // { name: "AI Workshop", image: "/certificates/Ai_Workshop.jpg" },
   { name: "Web Devlopment", image: "/certificates/6.jpg" },
   { name: "Full Stack Devlopment", image: "/certificates/1.jpg" },
   { name: "HackManthan2025 ", image: "/certificates/2.jpg" },

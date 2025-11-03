@@ -62,7 +62,7 @@ const Contact = () => {
                   <div className="flex flex-col items-center justify-center">
                     <FaMailBulk className="text-gray-100 h-8 w-10 md:h-8 md:w-10" />
                     <p className="text-gray-100 font-bold text-lg">Email</p>
-                    <p className=" text-gray-400 text-sm">abcd@gmail.com</p>
+                    <p className=" text-gray-400 text-sm">rupeshprasad103@gmail.com</p>
                   </div>
                   <div className="flex">
                     <p className="text-sm text-blue-500">Demo </p>
