@@ -3,7 +3,7 @@ import React from 'react'
 const Skill = () => {
   return (
     <div>
-        <section id="Skill" className="bg-[#0a0f1a] text-white py-10">
+        <section id="skills" className="bg-[#0a0f1a] text-white py-10">
         <h2 className="text-3xl font-bold text-center text-blue-400 mb-10 mt-10">
             My Skills & Technologies
         </h2>
@@ -17,8 +17,8 @@ const Skill = () => {
             </h3>
             <div className="flex flex-col gap-3">
                 {[
-                { name: "Python", level: "Advanced", icon: "/icons/Python.png" },
-                { name: "Java", level: "Intermediate", icon: "/icons/Java.png" },
+                { name: "Python", level: "Advanced", icon: "/icons/python.png" },
+                { name: "Java", level: "Intermediate", icon: "/icons/java.png" },
                 { name: "C", level: "Intermediate", icon: "/icons/C.png" },
                 { name: "JavaScript", level: "Advanced", icon: "/icons/js.png" },
                 ].map((skill) => (
@@ -42,7 +42,7 @@ const Skill = () => {
                 {[
                 { name: "HTML5", level: "Advanced", icon: "/icons/html5.png" },
                 { name: "CSS3", level: "Advanced", icon: "/icons/css3.png" },
-                { name: "React", level: "Intermediate", icon: "/icons/React.png" },
+                { name: "React", level: "Advanced", icon: "/icons/react.png" },
                 { name: "Next.js", level: "Intermediate", icon: "/icons/next.png" },
                 ].map((skill) => (
                 <div key={skill.name} className="flex items-center gap-3 bg-[#0B0C10] p-3 rounded-xl">
@@ -101,7 +101,7 @@ const Skill = () => {
             {/* Tools  */}
             <div className="bg-[#1F2833] p-6 rounded-2xl shadow-lg m-5 md:m-1">
             <h3 className="text-xl font-semibold text-blue-400 mb-4 text-center">
-                Tools & Platform
+                Tools
             </h3>
             <div className="flex flex-col gap-3 mt-15">
                 {[
