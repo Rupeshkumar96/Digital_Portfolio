@@ -35,7 +35,7 @@ const Certification = () => {
         className="text-4xl font-bold text-center text-blue-400 mb-10"
         data-aos="fade-down"
       >
-        Certifications
+        Certificate
       </h2>
 
       {/* Certificates Grid */}
