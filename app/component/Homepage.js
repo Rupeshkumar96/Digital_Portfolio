@@ -3,8 +3,6 @@ import React, { useEffect } from "react";
 // import { ReactTyped } from "react-typed";
 import { FaLinkedinIn, FaGithub, FaDribbble, FaMailBulk } from "react-icons/fa";
 import Image from "next/image";
-import img1 from "../component/asset/saurabh3.png";
-import img2 from "../component/asset/saurabh4.jpg";
 import img3 from "../component/asset/rupesh.jpg";
 
 // For animation
