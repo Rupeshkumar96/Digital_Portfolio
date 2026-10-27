@@ -62,8 +62,8 @@ const Homepage = () => {
             <div className="hidden md:block">
               <div className=" p-4 space-x-2 h-full flex flex-col items-center justify-center">
                 <div className="space-x-5">
-                  <a href="/SaurabhCV.pdf" download="SaurabhCV.pdf" >
-                    <button className="px-4 py-3 cursor-pointer border rounded-2xl border-blue-400 bg-blue-950 text-blue-400 md:text-2xl ">
+                  <a href="/Resume.pdf" download="Resume.pdf">
+                    <button className="px-4 py-3 cursor-pointer border rounded-2xl border-blue-400 bg-blue-950 text-blue-400 md:text-2xl">
                       Download CV
                     </button>
                   </a>
@@ -129,12 +129,17 @@ const Homepage = () => {
           <div className="block md:hidden mt-10">
             <div className=" p-4 space-x-2 h-full flex flex-col items-center justify-center">
               <div className="space-x-5">
-                <button className="px-4 py-3 border rounded-2xl border-blue-400 bg-blue-950 text-blue-400 md:text-2xl ">
-                  Download CV
-                </button>
-                <button className="px-4 py-3 bg-blue-400 border-white  rounded-2xl text-2xl">
-                  About
-                </button>
+                <a href="/Resume.pdf" download="Resume.pdf">
+                  <button className="px-4 py-3 border rounded-2xl border-blue-400 bg-blue-950 text-blue-400">
+                    Download CV
+                  </button>
+                </a>
+
+                <a href="#About">
+                  <button className="px-4 py-3 bg-blue-400 border-white rounded-2xl text-2xl">
+                    About
+                  </button>
+                </a>
               </div>
               <div className="flex  gap-5 mt-5">
                 <a href="http://www.linkedin.com/in/rupesh-kumar12">
