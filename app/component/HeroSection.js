@@ -26,23 +26,20 @@ export default function HeroSection() {
         <div>
           <p className="text-gray-400 text-lg md:text-xl">Hello, I&apos;m</p>
           <h1 className="text-3xl md:text-6xl font-bold text-blue-400 drop-shadow-[0_0_10px_rgba(0,140,255,0.5)]">
-            Mr. Rupesh Kumar
+            Mr.Rupesh Kumar
           </h1>
         </div>
 
-        <h2 className="text-2xl md:text-4xl font-semibold text-yellow-400">
+        {/* <h2 className="text-2xl md:text-4xl font-semibold text-yellow-400">
           <ReactTyped
             strings={[
-              "Backend Developer",
-              "Full Stack Engineer",
-              "MERN Developer",
-              "Problem Solver",
+              "ML Engineer",
             ]}
-            typeSpeed={70}
-            backSpeed={50}
-            loop
+            // typeSpeed={70}
+            // backSpeed={50}
+            // loop
           />
-        </h2>
+        </h2> */}
 
         <p className="text-gray-300 text-base md:text-lg max-w-xl">
           Passionate about crafting scalable, secure, and modern web

@@ -5,14 +5,14 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const certifications = [
-  { name: "AI Workshop", image: "/certificates/Ai_Workshop.jpg" },
-  { name: "React Developer", image: "/certificates/1.jpg" },
-  { name: "Python Basics", image: "/certificates/2.jpg" },
-  { name: "Full Stack Web Dev", image: "/certificates/3.jpg" },
-  { name: "Frontend Bootcamp", image: "/certificates/4.jpg" },
-  { name: "JavaScript Mastery", image: "/certificates/5.png" },
-  { name: "NodeJS Advanced", image: "/certificates/6.jpg" },
-  { name: "Database Design", image: "/certificates/7.jpg" },
+  { name: "Low level Payment", image: "/certificates/7.jpg" },
+  { name: "IBM Ai Fluency", image: "/certificates/Ai Fluency Certificate.jpg" },
+  { name: "Genrative AI", image: "/certificates/Genrative_ai.jpg" },
+  { name: "ALPHAINTERN Gen Ai", image: "/certificates/Certificate_Alphaintern.jpg" },
+  { name: "Infosys Gen AI ", image: "/certificates/infosys_certificate.jpg" },
+  { name: "Udemy Gen Ai", image: "/certificates/Udemy_certificate.jpg" },
+  { name: "Programming By Kaggle", image: "/certificates/5.png" },
+  { name: "Certificate in Java", image: "/certificates/NPTEL26.jpg" },
 ];
 
 const Certification = () => {
@@ -35,7 +35,7 @@ const Certification = () => {
         className="text-4xl font-bold text-center text-blue-400 mb-10"
         data-aos="fade-down"
       >
-        Certificate
+        Certificate/Certifications
       </h2>
 
       {/* Certificates Grid */}
